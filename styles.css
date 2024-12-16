@@ -22,7 +22,7 @@
     padding: 10px 0;
 
 }
-.navbar{
+#navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,7 +38,6 @@
     
     display: flex;
     align-items: center;
-    text-align: left;
 }
 #navdiv ul{
     float: right;
@@ -50,14 +49,14 @@
 }
 #navdiv ul li{
     display: inline-block;
-    margin: 0 10PX;
-    padding: 10px;
+    margin: 0 10px;
     font-size: 16px;
     margin-bottom: 5px;
 }
 #navdiv li a{
     color: #ababab;
     text-decoration: none;
+    font-weight: bold;
     transition: color 0.3s ease;
 }
 #navdiv ul li a:hover{
@@ -224,8 +223,7 @@ div#third{
   }
 #card {
     align-items: flex-end;
-    
-    height: 500px;
+    height:200px;
     width: 70%;
     font-family: "Work Sans", Arial, sans-serif;
 }
@@ -245,88 +243,95 @@ div#third{
 
 /*---- partners end------*/
 
-/*----  
-#Leader{
+#container4 {
+    display: flex; 
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #e5faf8;
+    background-image: url();
+}
+
+#collect {
+    width: 40%; 
+}
+
+#BOX1 {
+    width: 25%; 
+    gap: 20px; 
+    padding: 10px;
+}
+
+#BOX2 {
+    width: 25%; 
+}
+#div1-1, #div1-2, #div1-3, #div1-4 {
+    height: 200px;
+    width: 150px;
+    border: 5px s;
+    margin-bottom: 20px;  
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 10px 200px;
+    background-color: #ffffff;
+}
+
+
+#Leader {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     margin: 20px;
+    background-color: #e5faf8;
+  }
+#Leader h1{
+    font-family: "Work Sans", Arial, sans-serif;
+    color: #00b39b;
+}
+#Leader p{
+    color: #747474;
 }
 
-#collect{
-    height: auto;
-    width: auto;
-    background-color: #e5faf8;
-}
-#h1{
+#h1 {
     padding: 20px;
     border-radius: 5px;
-    font-size:20px;
-    line-height:20.2px;
-    text-align:start;
-    letter-spacing:0.3px;
-    background-color: #e5faf8;
-}
-#p1{
-    font-family: Arial, sans-serif;
-    font-size:14px;
-    line-height:24px;
+    font-size: 20px;
+    line-height: 20.2px;
     text-align: start;
-    letter-spacing:normal;
-    Color: Fill#747474;
+    letter-spacing: 0.3px;
     background-color: #e5faf8;
 }
-#div1-1{
-    height: 170px;
-    width: 150px;
-    border: 5px ;
-    float: left;
-    margin: 20px;
-    background-color: #00ccb1;
-    border-radius: 10px;
+
+#p1 {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: start;
+    letter-spacing: normal;
+    color: #747474;
+    background-color: #e5faf8;
+}
+.taille h3{
+    font-family:"Work Sans", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 15px;
+    color: #00b39b;
+    justify-content: space-around;
+}
+.taille p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    color: #747474;
+}
+
+#icon1 img{
+    width: 40px;
+    height: 30px;
+    margin: 5px;
     text-align: center;
 }
 
-
-#div1-2{
-    height: 170px;
-    width: 150px;
-    border: 5px ;
-    float: left;
-    margin: 20px;
-    background-color: #4d19a0;
-    border-radius: 10px;
-    text-align: center;
-}
-#div1-3{
-    height: 170px;
-    width: 150px;
-    border: 5px ;
-    float: left;
-    margin: 20px;
-    background-color: #831146;
-    border-radius: 10px;
-    text-align: center;
-}
-#div1-4{
-    height: 170px;
-    width: 150px;
-    border: 5px ;
-    float: left;
-    margin: 20px;
-    background-color: #c21717;
-    border-radius: 10px;
-    text-align: center;
-}
-#icon1{
-    width:  20px;
-    height: 10px;
-        margin: 10px;
-    background: black;
-    
-    text-align: center;
-}
-
- -----*/
 
  /*------*/
  #parties1{
@@ -334,7 +339,6 @@ div#third{
     margin: 100px;
  }
  #content1{
-    
     color: #00b39b;
  }
  #containe1{
@@ -394,8 +398,7 @@ div#third{
         text-align: center;
         margin: auto;
         width: 600px;
-        max-width: 600px;
-        min-height: 350px;
+        height: 150px;
         color: #747474 ;
         padding: 100px ;  
         font-family: "Work Sans", Arial, sans-serif;

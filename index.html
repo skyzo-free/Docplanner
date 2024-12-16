@@ -8,6 +8,48 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<style>
+    .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropbtn {
+  background-color: #fffff;
+  color: #747474;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #fffff;
+}
+
+</style>
+
+
 <!------- header BEGIN ------>
     <div id="header">
         <div class="container">
@@ -17,8 +59,21 @@
                     <ul>
                       <li><a href="index.html">About us</a></li>
                       <li><a href="#Career">Career</a></li>
-                      <li><a href="#Department">Department</a>
 
+                     <div class="dropdown"><li><a href="#Department">Department</a> 
+
+                        
+                            
+                            <div class="dropdown-content">
+                                <a href="">choose country</a>
+                                <a href="">Marketing & PR</a>
+                                <a href="">CUSTOMER Success  <br>& Sales</a>
+                                <a href="">IT, Product, Data</a>
+                                <a href="">HR & more</a>
+                            </div>
+                        </div>
+                      </li>
+                     <!-------   
                         <ul>
                             <li><a href="">choose country</a></li>
                             <li><a href="">Marketing & PR</a></li>
@@ -26,10 +81,10 @@
                             <li><a href="">IT, Product, Data</a></li>
                             <li><a href="">HR & more</a></li>
                         </ul>
-
+                        ------> 
                       </li>
                     </ul>
-                </div>    
+                </div>   
             </div>
         </div>
     </div>
@@ -164,58 +219,64 @@
   </div>     
 <!-----  end------>
 
-<!-----  begin
-<div id="collect">
+<!-----  begin------>
+<div id="container4">
+    <div id="collect">
    
      <div id="Leader">
-        <h1>The world's biggest <br>
-            healthcare platform  </h1>
-        <p>We work from 11 offices all over the world, bringing Docplanner Group to life in 13 countries.</p>
+        <div><h1>The world's biggest <br>
+            healthcare platform  </h1></div> <br>
+        <div><p>We work from 11 offices all over the world, bringing Docplanner Group to life in 13 countries.</p></div>
      </div>
+    </div>
       
-    <div>
+    <div id="BOX1">
         <div id="div1-1">
             <div id="icon1"><img src="images/flag.png" alt=""></div>
-            <div id="par1">
+            <div class="taille">
             <h3>Leader in 13 countries</h3>
             <p>Poland, Brazil, Mexico, Spain, Italy, Germany, Turkey, Colombia, Czech Republic, Portugal, Argentina, Peru and Chile </p>
         </div>
+    </div>
         <div id="div1-2">
             <div id="icon1"><img src="images/patients.png" alt=""></div>
-            <div id="par2">
+            <div class="taille">
             <h3>90,000,000 <br>
                 patients</h3>
             <p>visit our websites each month</p>
         </div>
     </div>
-     
 
-     
-        <div>
-            <div id="div1-3">
-                <div id="icon1"><img src="images/visits.png" alt=""></div>
-                <div id="par3">
-                <h3>22,000,000 <br>
-                    appointments</h3>
-                <p>booked last month</p>
-            </div>
-            <div id="div1-4">
-                <div id="icon1"><img src="images/doctors.png" alt=""></div>
-                <div id="par4">
-                <h3>260,000 <br>
-                    active doctors</h3>
-                <p>trust our solutions</p>
-            </div>
-        </div>
-    </div> 
-     </div>
-</div>
     </div>
+    <div id="BOX2">
+            
+        <div id="div1-3">
+            <div id="icon1"><img src="images/visits.png" alt=""></div>
+            <div class="taille">
+            <h3>22,000,000 <br>
+                appointments</h3>
+            <p>booked last month</p>
+        </div>
+    </div >
+        <div id="div1-4">
+            <div id="icon1"><img src="images/doctors.png" alt=""></div> <br>
+            <div class="taille">
+            <h3>260,000 <br>
+                active doctors</h3>
+            <p>trust our solutions</p>
+        </div>
+    </div>
+    </div>
+ </div>
+   
+     
 
-</div>
- end------>
+   
+<!-----  end------>
 
-<!-----  begin------>
+
+ 
+<!-----  begin ----->
 
 <div id="parties1">
     <div id="content1">
@@ -225,9 +286,9 @@
         <div> <p>More than 2800 team mates share our same vision, goals and passion. <br> With offices in Amsterdam (HQ), Warsaw, Barcelona, Munich, Istanbul, <br> Rome, Rio, Bologna, Mexico City and Curitiba, our search for great talent <br> never stops.</p></div>
      </div> 
 </div>
-<!-----  end------>
+<!-----   end------>
 
-<!----- card container ------>
+<!----- card container ----->
 <div id="card-container">
     <div class="card">
       
@@ -246,9 +307,9 @@
     <div class="card">
       
         <img src="images/Munich.jpeg" alt="">
-        <p>munich</p>
+        <code><p>munich</p>
         <a href="" class="btn"><h6>SEE OPENINGS </h6></a>
-        
+        </code>
     </div>
     <div class="card">
         
@@ -294,13 +355,6 @@
     </div>
     <div class="card">
         
-        <img src="images/Bogota.jpeg" alt="">
-        <p>Bogota</p>
-        <a href="" class="btn"><h6>SEE OPENINGS </h6></a>
-        
-        </div>
-    <div class="card">
-        
         <img src="images/Amsterdam.jpeg" alt="">
         <p>Amsterdam</p>
         <a href="" class="btn"><h6>SEE OPENINGS </h6></a>
@@ -312,8 +366,9 @@
         <p> <h1>Sounds interesting? Join us now! </h1></p>
         <a href="" class="btn1"> <h6> SEE ALL CURRENT OPENINGS </h6> </a>
     </div>
+<!-----end------>
 
-<!----- footer ------>
+<!----- footer ----->
 <div class="footer">
     <p>We are leaders in 13 countries: <a href="">Poland, Turkey, Spain, Italy, Germany, Czech Republic, Portugal, Mexico, Colombia, Brazil, Argentina, Peru and Chile. </a></p>
     <p class="Copyright">www.docplanner.com © 2024 </p>
