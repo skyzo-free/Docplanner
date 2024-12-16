@@ -9,11 +9,11 @@
 </head>
 <body>
 <!------- header BEGIN ------>
-    <div class="header">
+    <div id="header">
         <div class="container">
-            <div class="navbar">        
-                    <div class="logo"><a href=""><img src="images/doc-logo.png" ></a></div>
-                <div class="navdiv">
+            <div id="navbar">        
+                    <div id="logo"><a href=""><img src="images/doc-logo.png" ></a></div>
+                <div id="navdiv">
                     <ul>
                       <li><a href="index.html">About us</a></li>
                       <li><a href="#Career">Career</a></li>
@@ -22,7 +22,7 @@
                         <ul>
                             <li><a href="">choose country</a></li>
                             <li><a href="">Marketing & PR</a></li>
-                            <li><a href="">CUSTOMER Success & Sales</a></li>
+                            <li><a href="">CUSTOMER Success  <br>& Sales</a></li>
                             <li><a href="">IT, Product, Data</a></li>
                             <li><a href="">HR & more</a></li>
                         </ul>
@@ -36,14 +36,14 @@
 <!------- header END ------>
 
 <!------- middle BEGIN  ------>
-<div class="middle">
-    <div class="image">
+<div id="middle">
+    <div id="image">
         <img src="images/sygnet.png" >
     </div>
-    <div class="content">
+    <div id="content">
        <h2>Making the health care experience more human </h2>
     </div>
-     <div class="containe">
+     <div id="containe">
         <div> <p>We want patients to find the perfect doctor and book an appointment in the most easy way. The patient journey should be enjoyable, and that's why we are always next to them: to help them find the best possible care. Anytime, anywhere.</p></div>
         <div> <p>We also help doctors to better manage their practice and build their online reputation. With our integrated end-to-end solution, doctors are able not only to improve their online presence, but also to devote their time to what really matters: their patients. </p></div>
      </div> 
@@ -55,112 +55,272 @@
 
     <div class="content-box" id="first">
         <div class="icon" ><img src="images/icon-patients.svg" alt=""></div>
-        <div class="content">
-            <h1>For patients</h1>
-            <h2>Find a doctor, book a visit and solve any health-related doubt </h2>
+        <div class="content3">
+            <h1>For patients</h1> 
+            <h2>Find a doctor, book a visit and solve any health-related doubt</h2>
+    
+        <select id="clickdown" >
+            <option > choose country <i class="fa fa-caret-down"></i></option>
+                <option >argentina</option>
+                <option value="1">Brazil</option>
+                <option value="1">Chill</option>
+                <option value="1">Colombia</option>
+                <option value="1">Czech</option>
+                <option value="1">Germany</option>
+                <option value="1">Italy</option>
+                <option value="1">Mexico</option>
+                <option value="1">Peru</option>
+                <option value="1">Poland</option>
+                <option value="1">Portugal</option>
+                <option value="1">Spain</option>
+                <option value="1">Turkey</option>
+            </select>
 
-            <li><a href="#"> choose country <i class="fa fa-caret-down"></i></a>
-
-                <div class="clickdown">
-                <ul>
-                    <li><a href="">argentina</a></li>
-                    <li><a href="">Brazil</a></li>
-                    <li><a href="">Chill</a></li>
-                    <li><a href="">Colombia</a></li>
-                    <li><a href="">Czech</a></li>
-                    <li><a href="">Germany</a></li>
-                    <li><a href="">Italy</a></li>
-                    <li><a href="">Mexico</a></li>
-                    <li><a href="">Peru</a></li>
-                    <li><a href="">Poland</a></li>
-                    <li><a href="">Portugal</a></li>
-                    <li><a href="">Spain</a></li>
-                    <li><a href="">Turkey</a></li>
-                </ul>
-                </div>
-            </li>
         </div>
     </div>
-
     
     <div class="content-box" id="second">
         <div class="icon" ><img src="images/icon-doctors.svg" alt=""></div>
-        <div class="content">
+        <div class="content3">
             <h1>For doctors</h1>
             <h2>Save time managing visits and cut no-shows by half </h2>
 
-            <li><a href="#"> choose country <i class="fa fa-caret-down"></i></a>
-                <div class="clickdown">
-                    <ul>
-                        <li><a href="">argentina</a></li>
-                        <li><a href="">Brazil</a></li>
-                        <li><a href="">Chill</a></li>
-                        <li><a href="">Colombia</a></li>
-                        <li><a href="">Czech</a></li>
-                        <li><a href="">Germany</a></li>
-                        <li><a href="">Italy</a></li>
-                        <li><a href="">Mexico</a></li>
-                        <li><a href="">Peru</a></li>
-                        <li><a href="">Poland</a></li>
-                        <li><a href="">Portugal</a></li>
-                        <li><a href="">Spain</a></li>
-                        <li><a href="">Turkey</a></li>
-                    </ul>
-                </div>
-
-            </li>
-        </div>    
-
-    </div>
+        <select id="clickdown1" >
+            <option>choose country </option>
+                <option >argentina</option>
+                <option value="1">Brazil</option>
+                <option value="1">Chill</option>
+                <option value="1">Colombia</option>
+                <option value="1">Czech</option>
+                <option value="1">Germany</option>
+                <option value="1">Italy</option>
+                <option value="1">Mexico</option>
+                <option value="1">Peru</option>
+                <option value="1">Poland</option>
+                <option value="1">Portugal</option>
+                <option value="1">Spain</option>
+                <option value="1">Turkey</option>
+            </select>     
+  </div>
+</div>      
 
     <div class="content-box" id="third">
         <div class="icon" ><img src="images/icon-clinics.svg" alt=""></div>
-        <div class="content">
+        <div class="content3">
             <h1>For clinics</h1>
             <h2>Deliver an exceptional patient experience in your clinic </h2>
 
-            <li><a href="#"> 2 to 20 specialists <i class="fa fa-caret-down"></i></a>
-                <div class="clickdown">
-                    <ul>
-                        <li><a href="">2 to 20 specialists</a></li>
-                        <li><a href="">Brazil</a></li>
-                        <li><a href="">Czech</a></li>
-                        <li><a href="">Italy</a></li>
-                        <li><a href="">Mexico</a></li>
-                        <li><a href="">Poland</a></li>
-                        <li><a href="">Spain</a></li>
-                        <li><a href="">Turkey</a></li>
-                    </ul>
-                </div>
+            <select id="clickdown2" >
+                <option > 2 to 20 specialists <i class="fa fa-caret-down"></i></option>
+                    <option >argentina</option>
+                    <option value="1">Brazil</option>
+                    <option value="1">Chill</option>
+                    <option value="1">Colombia</option>
+                    <option value="1">Czech</option>
+                    <option value="1">Germany</option>
+                    <option value="1">Italy</option>
+                    <option value="1">Mexico</option>
+                    <option value="1">Peru</option>
+                    <option value="1">Poland</option>
+                    <option value="1">Spain</option>
+                    <option value="1">Turkey</option>
+                </select>
 
-            </li>
-
-            <li><a href="#">More than 20 specialists <i class="fa fa-caret-down"></i></a>
-                <div class="clickdown">
-                    <ul>
-                        <li><a href="">More than 20 specialists</a></li>
-                        <li><a href="">Brazil</a></li>
-                        <li><a href="">Italy</a></li>
-                        <li><a href="">Mexico</a></li>
-                        <li><a href="">Poland</a></li>
-                        <li><a href="">Spain</a></li>
-                    </ul>
-                </div>
-            </li>
-    </div>
-
+                <select id="clickdown2" >
+                    <option >More than 20 specialists <i class="fa fa-caret-down"></i></option>
+                        <option >More than 20 specialistsa</option>
+                        <option value="1">Brazil</option>
+                        <option value="1">Italy</option>
+                        <option value="1">Mexico</option>
+                        <option value="1">Poland</option>
+                        <option value="1">Spain</option>
+                    </select>
+   </div>
 </div>
+
 </div>
 <!----- CONTENT BOX end------>
 
 <!----- partners begin------>
-  <div>
-    <div><h1>We are a global <br>company <br>
-        with local culture</h1></div>
-    <div></div>
-  </div>     
+  <div id="partners">
+    <div id="title">
+        <h1>We are a global <br>company <br>
+        with local culture</h1>
+    </div>
 
-<!----- partners end------>
+        <div id="card">
+            <div class="">
+            <a href=""><img  src="images/znanylekarz.jpg" ></a>
+            <a href=""><img src="images/doctoralia.png" ></a> 
+            <a href=""><img src="images/miodottore.png" > </a>
+            <a href=""><img src="images/znanylekarz.jpg" ></a>
+            <a href=""><img src="images/znanylekarz.jpg" ></a>
+            <a href=""><img src="images/znanylekarz.jpg" ></a>
+            <a href=""><img src="images/znanylekarz.jpg" ></a>
+            <a href=""><img src="images/znanylekarz.jpg" ></a>
+            </div>
+        </div>        
+
+  </div>     
+<!-----  end------>
+
+<!-----  begin
+<div id="collect">
+   
+     <div id="Leader">
+        <h1>The world's biggest <br>
+            healthcare platform  </h1>
+        <p>We work from 11 offices all over the world, bringing Docplanner Group to life in 13 countries.</p>
+     </div>
+      
+    <div>
+        <div id="div1-1">
+            <div id="icon1"><img src="images/flag.png" alt=""></div>
+            <div id="par1">
+            <h3>Leader in 13 countries</h3>
+            <p>Poland, Brazil, Mexico, Spain, Italy, Germany, Turkey, Colombia, Czech Republic, Portugal, Argentina, Peru and Chile </p>
+        </div>
+        <div id="div1-2">
+            <div id="icon1"><img src="images/patients.png" alt=""></div>
+            <div id="par2">
+            <h3>90,000,000 <br>
+                patients</h3>
+            <p>visit our websites each month</p>
+        </div>
+    </div>
+     
+
+     
+        <div>
+            <div id="div1-3">
+                <div id="icon1"><img src="images/visits.png" alt=""></div>
+                <div id="par3">
+                <h3>22,000,000 <br>
+                    appointments</h3>
+                <p>booked last month</p>
+            </div>
+            <div id="div1-4">
+                <div id="icon1"><img src="images/doctors.png" alt=""></div>
+                <div id="par4">
+                <h3>260,000 <br>
+                    active doctors</h3>
+                <p>trust our solutions</p>
+            </div>
+        </div>
+    </div> 
+     </div>
+</div>
+    </div>
+
+</div>
+ end------>
+
+<!-----  begin------>
+
+<div id="parties1">
+    <div id="content1">
+       <h1>Improve the lives of millions. <br> Change yours forever.</h1>
+    </div>
+     <div id="containe1">
+        <div> <p>More than 2800 team mates share our same vision, goals and passion. <br> With offices in Amsterdam (HQ), Warsaw, Barcelona, Munich, Istanbul, <br> Rome, Rio, Bologna, Mexico City and Curitiba, our search for great talent <br> never stops.</p></div>
+     </div> 
+</div>
+<!-----  end------>
+
+<!----- card container ------>
+<div id="card-container">
+    <div class="card">
+      
+        <img src="images/marsaw.jpeg" alt="">
+        <p>Warsaw</p>
+        <a href="" class="btn"><h6>SEE OPENINGS </h6></a>
+           
+    </div>  
+    <div class="card">
+     
+        <img src="images/Barcelona.jpeg" alt="">
+        <p>Barcelona</p>
+        <a href="" class="btn"><h6>SEE OPENINGS </h6></a>
+     
+    </div>
+    <div class="card">
+      
+        <img src="images/Munich.jpeg" alt="">
+        <p>munich</p>
+        <a href="" class="btn"><h6>SEE OPENINGS </h6></a>
+        
+    </div>
+    <div class="card">
+        
+        <img src="images/Istanbul.jpeg" alt="">
+        <p>Istanbul</p> 
+        <a href="" class="btn"><h6>SEE OPENINGS </h6></a>
+    
+    </div>
+    <div class="card">
+        
+        <img src="images/Rome.jpeg" alt="">
+        <p>Rome</p>
+        <a href="" class="btn"><h6>SEE OPENINGS </h6></a>
+       
+    </div>
+    <div class="card">
+        
+        <img src="images/Bologne.jpeg" alt="">
+        <p>Bologna</p>
+        <a href="" class="btn"><h6>SEE OPENINGS </h6></a>
+        
+    </div>
+    <div class="card">
+        
+        <img src="images/Curitiba.jpeg" alt="">
+        <p>Curitiba</p>
+        <a href="" class="btn"><h6>SEE OPENINGS </h6></a>
+        
+    </div>
+    <div class="card">
+        
+        <img src="images/Rio de Janeiro.jpeg" alt="">
+        <p>Rio De Janeiro</p>
+        <a href="" class="btn"><h6>SEE OPENINGS </h6></a>
+        
+    </div>
+    <div class="card">
+        
+        <img src="images/Mexico city.jpeg" alt="">
+        <p>Mexico City</p>
+        <a href="" class="btn"><h6>SEE OPENINGS </h6></a>
+        
+    </div>
+    <div class="card">
+        
+        <img src="images/Bogota.jpeg" alt="">
+        <p>Bogota</p>
+        <a href="" class="btn"><h6>SEE OPENINGS </h6></a>
+        
+        </div>
+    <div class="card">
+        
+        <img src="images/Amsterdam.jpeg" alt="">
+        <p>Amsterdam</p>
+        <a href="" class="btn"><h6>SEE OPENINGS </h6></a>
+        
+    </div>
+
+</div>
+    <div id="Join">
+        <p> <h1>Sounds interesting? Join us now! </h1></p>
+        <a href="" class="btn1"> <h6> SEE ALL CURRENT OPENINGS </h6> </a>
+    </div>
+
+<!----- footer ------>
+<div class="footer">
+    <p>We are leaders in 13 countries: <a href="">Poland, Turkey, Spain, Italy, Germany, Czech Republic, Portugal, Mexico, Colombia, Brazil, Argentina, Peru and Chile. </a></p>
+    <p class="Copyright">www.docplanner.com © 2024 </p>
+</div>
+
+
+
 
 </body>
 </html>
